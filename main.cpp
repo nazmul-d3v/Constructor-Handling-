@@ -56,5 +56,5 @@ C aa(98,87,89);
 aa.display();
 aa.putdata();
 aa.show();
-
+return 0;
 }
