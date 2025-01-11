@@ -14,7 +14,7 @@ public:
 
 void A ::display()
 {
-    cout<<"\n A="<<a;
+    cout<<"\n Value of A="<<a;
 }
 
 class B
@@ -30,7 +30,7 @@ public:
 };
 void B ::putdata()
 {
-    cout<<"\n b="<<b;
+    cout<<"\n Value of B="<<b;
 }
 
 class C : public A, public B
@@ -44,7 +44,7 @@ public:
 
     void show()
     {
-        cout<<"\n C="<<c;
+        cout<<"\n Value of C="<<c;
     }
 };
 
